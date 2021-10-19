@@ -26,7 +26,24 @@ int main(int argc, char **argv){
 	//Puede declarar más variables si lo necesita.
 	float sum = 0.0f;
 	float max_imc = 0.0f;
-	
+        for (int i=0; i< elementos; i ++){{
+	    float p;
+	    float a;
+        printf("Peso: ");
+        scanf("%f",&p) ;
+        printf("Altura: ");
+        scanf("%f",&a) ;
+        float v = (p/(a*a));
+        sum=sum + v;
+        if (max_imc<v) {
+
+        max_imc= v;
+
+    
+            }
+
+        
+	}}	
 	
 	
 	
